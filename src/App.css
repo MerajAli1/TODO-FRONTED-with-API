@@ -1,0 +1,105 @@
+.parentDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 600px;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 29px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  border: 2px seagreen solid;
+}
+.mainContainer>h1{
+  margin-top: 90px;
+  text-align: center;
+
+}
+.container>h1 {
+  text-align: center;
+}
+
+.inp {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border: 5px seagreen solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 120px;
+  border-radius: 10px;
+}
+
+.btn-del {
+  margin-top: 10px;
+  text-align: center;
+  background-color: seagreen;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-add {
+  margin-top: 10px;
+  text-align: center;
+  background-color: seagreen;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+b {
+  margin-right: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 10px;
+  width: 365px;
+  margin-top: 10px;
+  border: 4px seagreen solid;
+}
+
+.btn-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-li>button {
+  background-color: seagreen;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.delBtn {
+  margin-left: 5px;
+}
